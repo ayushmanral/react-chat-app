@@ -1,0 +1,69 @@
+.form {
+  display: flex;
+  position: relative;
+  height: 60px;
+  margin: 0px 0px 10px 10px;
+}
+  
+.input {
+  border: none;
+  border-radius: 0;
+  padding: 10px;
+  line-height: 1;
+  width: 80%;
+  font-size: 16px;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
+.sendButton {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #482c5d;
+  display: inline-block;
+  border: none;
+  position: relative;
+  right: 0%;
+  top: 50%;
+  transform: translate(10px, -50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.form .input {
+  font-size: 12px;
+  width: calc(100% - 70px);
+  background-color: #ffffff33;
+  border-radius: 30px;
+  padding-left: 30px;
+}
+
+.form .input::placeholder {
+  color: #cdcdcd;
+}
+
+.sendArrow_big {
+  display: inline-block;
+  border-left: 25px solid #c9c9c9;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sendArrow_small {
+  border-left: 10px solid #482c5d;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  display: inline-block;
+  position: absolute;
+  left: calc(25% - 1px);
+  top: 50%;
+  transform: translate(0%, -50%);
+}

@@ -1,0 +1,60 @@
+.rosterComponent {
+  position: absolute;
+  top: 60px;
+  z-index: 1;
+  width: 100%;
+}
+
+.rosterWrapper {
+  font-size: 12px;
+  padding: 20px;
+  color: #6e0038;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.rosterWrapper p {
+  margin: 5px;
+  flex-basis: 30%;
+  text-align: center;
+  background-color: #ffffff99;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 2px #00000055;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+
+.rosterContainer {
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffffff99;
+}
+
+.openRoster .rosterContainer {
+  height: auto;
+}
+
+.rosterTrigger {
+  text-align: center;
+}
+
+.rosterTrigger p {
+    padding: 10px 20px;
+    height: 30px;
+    font-size: 10px;
+    line-height: 1.2;
+    letter-spacing: 0.3px;
+    display: inline-flex;
+    background: #ffffff99;
+    border-radius: 0 0 50% 50%;
+    margin: 0;
+    color: #7b0027;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
