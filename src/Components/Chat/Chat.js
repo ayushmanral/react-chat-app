@@ -19,7 +19,7 @@ const Chat = ({location}) => {
 
     useEffect(() => {
         const { name, room } = queryString.parse(location.search);
-
+        console.log(name, room);
         socket= io(ENDPOINT);
         
         setName(name);
@@ -29,7 +29,7 @@ const Chat = ({location}) => {
 
         return() => {
             socket.emit('disconnect');
-            socket.off( );
+            socket.off();
         }
     }, [ENDPOINT, location.search]);
 

@@ -8,7 +8,7 @@
 .rosterWrapper {
   font-size: 12px;
   padding: 20px;
-  color: #6e0038;
+  color: #5665fb;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -52,7 +52,7 @@
     background: #ffffff99;
     border-radius: 0 0 50% 50%;
     margin: 0;
-    color: #7b0027;
+    color: #5665fb;
     justify-content: center;
     align-items: center;
     font-weight: bold;
